@@ -1,0 +1,30 @@
+###################
+### BUILD STAGE ###
+###################
+FROM balenalib/%%BALENA_MACHINE_NAME%%-node:11-build as build
+LABEL author "Tomás Migone"
+LABEL maintainer "tomasmigone@gmail.com"
+
+# Get code
+WORKDIR /usr/src
+COPY . .
+
+# Compile it
+RUN JOBS=MAX npm install && npm run build
+
+########################
+### PRODUCTION STAGE ###
+########################
+FROM arm32v7/nginx:latest as production
+LABEL author "Tomás Migone"
+LABEL maintainer "tomasmigone@gmail.com"
+
+# Remove default site
+RUN rm -rf /usr/share/nginx/html/*
+
+# Get built website from build-stage
+COPY --from=build /usr/src/dist /usr/share/nginx/html
+
+# Start
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

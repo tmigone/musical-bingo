@@ -1,8 +1,8 @@
 <template>
   <div class="about">
-    <button @click="bingoPlay">Bingo</button>
-    <button @click="play">Play song</button>
-    <button @click="pause">Pause song</button>
+    <button style="width: 100px; height: 50px;margin-right:15px;" @click="bingoPlay">Bingo</button>
+    <button style="width: 100px; height: 50px;margin-right:15px;" @click="play">Play</button>
+    <button style="width: 100px; height: 50px;margin-right:15px;" @click="pause">Pause</button>
     <h1 v-if="showCountdown">{{ countdown }}</h1>
     <h1 v-if="showData">{{ name }}</h1>
     <h2 v-if="showData">{{ artist }}</h2>
@@ -10,16 +10,13 @@
 </template>
 
 <script>
+let COUNTDOWN = 15
 export default {
   name: 'song',
   properties: {
     showControls: {
       type: Boolean,
       default: false
-    },
-    songs: {
-      type: Array,
-      default: []
     }
   },
   components: {
@@ -28,13 +25,14 @@ export default {
     song: null,
     name: '',
     artist: '',
-    countdown: 10,
+    countdown: COUNTDOWN,
     timer: null,
     showData: false,
-    showCountdown: false
+    showCountdown: false,
+    songs: require('@/songs.json').sort(() => Math.random() - 0.5),
+    songIndex: 0
   }),
   mounted: function () {
-    this.reset()
   },
   methods: {
     reset: function () {
@@ -45,10 +43,12 @@ export default {
       if (this.timer) clearInterval(this.timer)
 
       // Get new song and update details
-      this.song = new Audio('sample-mp3s/1.mp3')
-      this.name = 'Californication'
-      this.artist = 'Red Hot Chilli Peppers'
-      this.countdown = 10
+      console.log(this.songs)
+      let newSong = this.songs[ this.songIndex++ % this.songs.length ]
+      this.song = new Audio(`songs/${newSong.file}`)
+      this.name = newSong.song
+      this.artist = newSong.artist
+      this.countdown = COUNTDOWN
       this.showData = false
       this.showCountdown = true
 
@@ -77,9 +77,10 @@ export default {
       if (this.timer) clearInterval(this.timer)
 
       // Get song and update details
-      this.song = new Audio('sample-mp3s/1.mp3')
-      this.name = 'Californication'
-      this.artist = 'Red Hot Chilli Peppers'
+      let currentSong = this.songs[ (this.songIndex - 1) % this.songs.length ]
+      this.song = new Audio(`songs/${currentSong.file}`)
+      this.name = currentSong.song
+      this.artist = currentSong.artist
       this.showData = true
       this.showCountdown = false
 

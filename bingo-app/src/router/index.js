@@ -5,7 +5,7 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/song',
+    path: '/',
     name: 'song',
     component: () => import('../views/Bingo.vue')
   }

@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <song-card :songs='songs'></song-card>
+    <song-card></song-card>
   </div>
 </template>
 
@@ -14,6 +14,8 @@ export default {
   },
   data: () => ({
     songs: []
-  })
+  }),
+  mounted: function () {
+  }
 }
 </script>

@@ -1,0 +1,317 @@
+[
+  {
+    "artist": "Dire Straits",
+    "song": "Sultans of swing",
+    "file": "1.mp3"
+  },
+  {
+    "artist": "Los Chunguitos",
+    "song": "Me quedo contigo",
+    "file": "2.mp3"
+  },
+  {
+    "artist": "Starship",
+    "song": "We built this city",
+    "file": "3.mp3"
+  },
+  {
+    "artist": "Andrea Bocelli",
+    "song": "Time to say goodbye (Con te partiré)",
+    "file": "4.mp3"
+  },
+  {
+    "artist": "ELO",
+    "song": "Last train to London",
+    "file": "5.mp3"
+  },
+  {
+    "artist": "Andrea Bocelli",
+    "song": "Vivo per lei",
+    "file": "6.mp3"
+  },
+  {
+    "artist": "Rod Stewart",
+    "song": "Da ya think I'm sexy?",
+    "file": "7.mp3"
+  },
+  {
+    "artist": "The Platters",
+    "song": "The great pretender",
+    "file": "8.mp3"
+  },
+  {
+    "artist": "Frank Sinatra",
+    "song": "Fly me to the moon",
+    "file": "9.mp3"
+  },
+  {
+    "artist": "Frank Sinatra",
+    "song": "New York, New York",
+    "file": "10.mp3"
+  },
+  {
+    "artist": "Chicago",
+    "song": "All that jazz",
+    "file": "11.mp3"
+  },
+  {
+    "artist": "Madonna",
+    "song": "Material girl",
+    "file": "12.mp3"
+  },
+  {
+    "artist": "The Beatles",
+    "song": "Help",
+    "file": "13.mp3"
+  },
+  {
+    "artist": "Bee Gees",
+    "song": "How deep is your love",
+    "file": "14.mp3"
+  },
+  {
+    "artist": "The Beatles",
+    "song": "Yellow submarine",
+    "file": "15.mp3"
+  },
+  {
+    "artist": "Charly Garcia",
+    "song": "Demoliendo hoteles",
+    "file": "16.mp3"
+  },
+  {
+    "artist": "Los Gatos",
+    "song": "La balsa",
+    "file": "17.mp3"
+  },
+  {
+    "artist": "Palito Ortega",
+    "song": "La felicidad",
+    "file": "18.mp3"
+  },
+  {
+    "artist": "Ritchie Valens",
+    "song": "La bamba",
+    "file": "19.mp3"
+  },
+  {
+    "artist": "Sergio Dalma",
+    "song": "Bailar pegados",
+    "file": "20.mp3"
+  },
+  {
+    "artist": "Juan y Juan",
+    "song": "Balada para un gordo",
+    "file": "21.mp3"
+  },
+  {
+    "artist": "Pappo",
+    "song": "Juntos a la par",
+    "file": "22.mp3"
+  },
+  {
+    "artist": "Sosa / Spinetta",
+    "song": "Barro tal vez",
+    "file": "23.mp3"
+  },
+  {
+    "artist": "Memphis la Blusera",
+    "song": "La bifurcada",
+    "file": "24.mp3"
+  },
+  {
+    "artist": "Seru Giran",
+    "song": "Seminare",
+    "file": "25.mp3"
+  },
+  {
+    "artist": "Leon Gieco",
+    "song": "El país de la libertad",
+    "file": "26.mp3"
+  },
+  {
+    "artist": "Jorge Drexler",
+    "song": "Me haces bien",
+    "file": "27.mp3"
+  },
+  {
+    "artist": "Taylor Swift",
+    "song": "Shake it off",
+    "file": "28.mp3"
+  },
+  {
+    "artist": "Ed Sheeran",
+    "song": "Shape of you",
+    "file": "29.mp3"
+  },
+  {
+    "artist": "Sebastian Yatra",
+    "song": "Runaway",
+    "file": "30.mp3"
+  },
+  {
+    "artist": "Sebastian Yatra",
+    "song": "Ya no tiene novio",
+    "file": "31.mp3"
+  },
+  {
+    "artist": "Queen",
+    "song": "I want to break free",
+    "file": "32.mp3"
+  },
+  {
+    "artist": "Queen",
+    "song": "Somebody to love",
+    "file": "33.mp3"
+  },
+  {
+    "artist": "Luis Miguel",
+    "song": "Será que no me amas",
+    "file": "34.mp3"
+  },
+  {
+    "artist": "Toto",
+    "song": "Africa",
+    "file": "35.mp3"
+  },
+  {
+    "artist": "Bee Gees",
+    "song": "Staying alive",
+    "file": "36.mp3"
+  },
+  {
+    "artist": "Lou Bega",
+    "song": "Mambo Nº5",
+    "file": "37.mp3"
+  },
+  {
+    "artist": "Tini Stoessel",
+    "song": "Fresa",
+    "file": "38.mp3"
+  },
+  {
+    "artist": "Maluma",
+    "song": "No se me quita",
+    "file": "39.mp3"
+  },
+  {
+    "artist": "Maroon 5",
+    "song": "Moves like jagger",
+    "file": "40.mp3"
+  },
+  {
+    "artist": "Louis Armstrong",
+    "song": "What a wonderful world",
+    "file": "41.mp3"
+  },
+  {
+    "artist": "Frank Sinatra",
+    "song": "The girl from Ipanema",
+    "file": "42.mp3"
+  },
+  {
+    "artist": "Dean Martin",
+    "song": "Volare",
+    "file": "43.mp3"
+  },
+  {
+    "artist": "Nate King Cole",
+    "song": "Unforgettable",
+    "file": "44.mp3"
+  },
+  {
+    "artist": "Backstreet Boys",
+    "song": "Everybody",
+    "file": "45.mp3"
+  },
+  {
+    "artist": "Britney Spears",
+    "song": "Oops I did it again",
+    "file": "46.mp3"
+  },
+  {
+    "artist": "Justin Bieber",
+    "song": "Love yourself",
+    "file": "47.mp3"
+  },
+  {
+    "artist": "ACDC",
+    "song": "Highway to hell",
+    "file": "48.mp3"
+  },
+  {
+    "artist": "Michael Buble",
+    "song": "Haven't met you yet",
+    "file": "49.mp3"
+  },
+  {
+    "artist": "Fito Paez",
+    "song": "Mariposa technicolor",
+    "file": "50.mp3"
+  },
+  {
+    "artist": "Paulo Londra",
+    "song": "Adan y Eva",
+    "file": "51.mp3"
+  },
+  {
+    "artist": "Joao Gilberto",
+    "song": "Aguarela do Brasil",
+    "file": "52.mp3"
+  },
+  {
+    "artist": "Los Naufragos",
+    "song": "Zapato roto",
+    "file": "53.mp3"
+  },
+  {
+    "artist": "Maria Creuza",
+    "song": "Onde anda voce",
+    "file": "54.mp3"
+  },
+  {
+    "artist": "Abba",
+    "song": "Mamma mia",
+    "file": "55.mp3"
+  },
+  {
+    "artist": "Gary Moore",
+    "song": "Still got the blues",
+    "file": "56.mp3"
+  },
+  {
+    "artist": "Luciano Pavarotti",
+    "song": "Nessun dorma",
+    "file": "57.mp3"
+  },
+  {
+    "artist": "Bob Dylan",
+    "song": "Knocking on heaven's door",
+    "file": "58.mp3"
+  },
+  {
+    "artist": "Kansas",
+    "song": "Dust in the wind",
+    "file": "59.mp3"
+  },
+  {
+    "artist": "Pink Floyd",
+    "song": "Money",
+    "file": "60.mp3"
+  },
+  {
+    "artist": "The Doors",
+    "song": "Light my fire",
+    "file": "61.mp3"
+  },
+  {
+    "artist": "Luis Fonsi",
+    "song": "Despacito",
+    "file": "62.mp3"
+  },
+  {
+    "artist": "Bruno Mars",
+    "song": "Uptown funk",
+    "file": "63.mp3"
+  }
+]

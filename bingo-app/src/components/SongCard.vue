@@ -43,7 +43,6 @@ export default {
       if (this.timer) clearInterval(this.timer)
 
       // Get new song and update details
-      console.log(this.songs)
       let newSong = this.songs[ this.songIndex++ % this.songs.length ]
       this.song = new Audio(`songs/${newSong.file}`)
       this.name = newSong.song
@@ -56,7 +55,6 @@ export default {
       setTimeout(() => {
         // Fast-forward to 10% - 50% and play it
         this.song.currentTime = Math.floor(this.song.duration * (0.1 + Math.random() * 0.4))
-        console.log(`[Song] Starting at ${this.song.currentTime}s`)
         this.song.play()
 
         // Handle countdown and reveal

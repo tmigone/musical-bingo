@@ -8,6 +8,11 @@ const routes = [
     path: '/',
     name: 'song',
     component: () => import('../views/Bingo.vue')
+  },
+  {
+    path: '/display',
+    name: 'song',
+    component: () => import('../views/BingoDisplay.vue')
   }
 ]
 

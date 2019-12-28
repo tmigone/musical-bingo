@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <song-card :showControls='true'></song-card>
+    <song-card :showControls='false'></song-card>
   </div>
 </template>
 
